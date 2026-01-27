@@ -8,7 +8,7 @@ main = "src/index.js"
 
 # Compatibility date - ensures your worker runs with a specific version of the Workers runtime
 # It's recommended to use a recent date.
-compatibility_date = "2024-06-02"
+compatibility_date = "2024-12-01"
 
 # Route binding: This tells Cloudflare which traffic should trigger your worker.
 # !!! IMPORTANT: You MUST replace these placeholder values with your actual domain details !!!
@@ -29,3 +29,4 @@ PROFOUND_API_KEY = "bot_12062706-4114-480e-9481-2fec30e6e3a0"
 # not placed directly in this file.
 # Use the command: wrangler secret put PROFOUND_API_KEY
 # You will be prompted to enter the key securely.
+
