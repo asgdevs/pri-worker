@@ -6,7 +6,7 @@ compatibility_date = "2024-12-01"
 # Route binding: This tells Cloudflare which traffic should trigger your worker.
 # !!! IMPORTANT: You MUST replace these placeholder values with your actual domain details !!!
 routes = [
-  { pattern = "www.priorityoneheating.com/*", zone_name = "www.priorityoneheating.com" }
+  { pattern = "priorityoneheating.com/*", zone_name = "priorityoneheating.com" }
   # Example: If your site is www.example.com, use:
   # { pattern = "example.com/*", zone_name = "example.com" }
   # The zone_name is usually your root domain without 'www'.
@@ -22,5 +22,6 @@ PROFOUND_API_KEY = "bot_12062706-4114-480e-9481-2fec30e6e3a0"
 # not placed directly in this file.
 # Use the command: wrangler secret put PROFOUND_API_KEY
 # You will be prompted to enter the key securely.
+
 
 
