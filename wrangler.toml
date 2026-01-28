@@ -15,13 +15,14 @@ routes = [
 # Environment variables accessible within the worker code
 [vars]
 PROFOUND_API_URL = "https://artemis.api.tryprofound.com/v1/logs/cloudflare_worker"
-PROFOUND_API_KEY = "bot_12062706-4114-480e-9481-2fec30e6e3a0"
+PROFOUND_API_KEY = "bot_1f1abeb9-61bd-4369-9d6d-0509347c21f2"
 
 # Note on Secrets:
 # The PROFOUND_API_KEY is sensitive and MUST be configured as a secret,
 # not placed directly in this file.
 # Use the command: wrangler secret put PROFOUND_API_KEY
 # You will be prompted to enter the key securely.
+
 
 
 
